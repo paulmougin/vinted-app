@@ -1,1 +1,71 @@
 /* Other rules */
+
+body {
+  background-color: red;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: white;
+  /* border-bottom: 1px solid black; */
+  height: 64px;
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+
+.top-bar {
+  height: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.actions .primary-button,
+.actions .secondary-button {
+  margin-right: 1rem;
+  height: 2rem;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.actions .primary-button {
+  color: white;
+  border: #09b1ba;
+  background-color: #09b1ba;
+}
+
+.actions .secondary-button {
+  color: #09b1ba;
+  border: 1px #09b1ba solid;
+  background-color: white;
+}
+
+.search input {
+  background-color: #f5f6f7;
+  height: 2.5rem;
+  width: 500px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.hero {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero img {
+  width: 100%;
+  width: 100%;
+}
+
+.hero-divider {
+  background-image: url("../src/img/hp-banner.jpg");
+  margin-left: 50%;
+}
